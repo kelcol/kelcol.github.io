@@ -1,0 +1,2 @@
+webpackJsonp([0x81b8806e4260],{326:function(t,a){t.exports={data:{site:{siteMetadata:{title:"Gatsby Starter - Photon"}}},pathContext:{}}}});
+//# sourceMappingURL=path---index-40007d69e01810996305.js.map
