@@ -6,6 +6,9 @@ import pic01 from '../assets/images/pic01.jpg'
 import pic02 from '../assets/images/pic02.jpg'
 import pic03 from '../assets/images/pic03.jpg'
 import pic04 from '../assets/images/pic04.jpg'
+import karls from '../assets/images/karls.gif'
+import thisin from '../assets/images/thisy.png'
+import blp from '../assets/images/blp.png'
 
 class Homepage extends React.Component {
     render() {
@@ -70,34 +73,35 @@ class Homepage extends React.Component {
                         <div className="col-4">
                             <span className="image fit"><img src={pic02} alt="" /></span>
                             <h3>Lighthouses of Washington</h3>
-                            <p>Adipiscing a commodo ante nunc magna lorem et interdum mi ante nunc lobortis non amet vis sed volutpat et nascetur.</p>
+                            <p>JavaScript, HTML, CSS, Vue.js, SPARQL</p>                            
                             <ul className="actions">
-                                <li><a href="#" className="button">More</a></li>
+                                <li><a href="#" className="button">Demo</a></li>
+                                <li><a href="#" className="button">Source</a></li>
                             </ul>
                         </div>
                         <div className="col-4">
                             <span className="image fit"><img src={pic03} alt="" /></span>
                             <h3>Karl Sayagain</h3>
-                            <p>Adipiscing a commodo ante nunc magna lorem et interdum mi ante nunc lobortis non amet vis sed volutpat et nascetur.</p>
+                            <p>JavaScript, HTML, CSS, Vue.js, Firebase, Google Analytics</p>      
                             <ul className="actions">
-                                <li><a href="#" className="button">More</a></li>
+                                <li><a href="#" className="button">Demo</a></li>                                 <li><a href="#" className="button">Source</a></li>
                             </ul>
                         </div>
                         <div className="col-4">
-                            <span className="image fit"><img src={pic04} alt="" /></span>
+                            <span className="image fit"><img src={thisin} alt="" /></span>
                             <h3>Twitter Share URL Generator</h3>
-                            <p>Adipiscing a commodo ante nunc magna lorem et interdum mi ante nunc lobortis non amet vis sed volutpat et nascetur.</p>
+                            <p>JavaScript, HTML, CSS, MVC design pattern</p>      
                             <ul className="actions">
-                                <li><a href="#" className="button">More</a></li>
+                                <li><a href="#" className="button">Demo</a></li>                                 <li><a href="#" className="button">Source</a></li>
                             </ul>
                         </div>
 
                         <div className="col-4">
-                            <span className="image fit"><img src={pic02} alt="" /></span>
+                            <span className="image fit"><img src={blp} alt="" /></span>
                             <h3>Body Listening Project Website</h3>
                             <p>Adipiscing a commodo ante nunc magna lorem et interdum mi ante nunc lobortis non amet vis sed volutpat et nascetur.</p>
                             <ul className="actions">
-                                <li><a href="#" className="button">More</a></li>
+                                <li><a href="#" className="button">Demo</a></li>                                 <li><a href="#" className="button">Source</a></li>
                             </ul>
                         </div>
                         <div className="col-4">
@@ -105,7 +109,7 @@ class Homepage extends React.Component {
                             <h3>Branding and Logo Samples</h3>
                             <p>Adipiscing a commodo ante nunc magna lorem et interdum mi ante nunc lobortis non amet vis sed volutpat et nascetur.</p>
                             <ul className="actions">
-                                <li><a href="#" className="button">More</a></li>
+                                <li><a href="#" className="button">Demo</a></li>                                 <li><a href="#" className="button">Source</a></li>
                             </ul>
                         </div>
                         <div className="col-4">
@@ -113,7 +117,7 @@ class Homepage extends React.Component {
                             <h3>Metadata Application Profiles</h3>
                             <p>Adipiscing a commodo ante nunc magna lorem et interdum mi ante nunc lobortis non amet vis sed volutpat et nascetur.</p>
                             <ul className="actions">
-                                <li><a href="#" className="button">More</a></li>
+                                <li><a href="#" className="button">Demo</a></li>                                 <li><a href="#" className="button">Source</a></li>
                             </ul>
                         </div>
 
