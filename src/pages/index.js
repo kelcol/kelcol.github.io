@@ -34,7 +34,7 @@ class Homepage extends React.Component {
                     of practice. Some of the disciplines I've worked within include naval aviation and electronic warfare, architecture
                     and design, consumer health research, and social media analytics. In my current role at
                     <a href="https://www.exlibrisgroup.com/">Ex Libris</a> (a
-                    <a href="https://proquest.com">ProQuest</a> company) I serve professionals of my own ilk, librarians and other electronic resource managers.</p>
+                    <a href="https://proquest.com"> ProQuest</a> company) I serve professionals of my own ilk, librarians and other electronic resource managers.</p>
                     <p>I seek opportunities presenting interesting challenges that will allow me to continue to grow and make an impact
                     on the lives of others. I am open to working for employers small to large, public or private.</p>
                 </div>
