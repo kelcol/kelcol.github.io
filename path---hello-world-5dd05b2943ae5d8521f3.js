@@ -1,0 +1,2 @@
+webpackJsonp([0x834755aae49e],{322:function(e,t){e.exports={data:{site:{siteMetadata:{title:"Kelly Colht | Librarian & Web Developer",author:"Kelly Colht"}},markdownRemark:{id:"/home/kelly/github/kelcol/kelcol.github.io/src/posts/hello-world/index.md absPath of file >>> MarkdownRemark",html:"<p>For some reason, I think at least one post needs to exist to prevent errors.</p>",frontmatter:{title:"Hello World",date:"May 01, 2015"}}},pathContext:{}}}});
+//# sourceMappingURL=path---hello-world-5dd05b2943ae5d8521f3.js.map
