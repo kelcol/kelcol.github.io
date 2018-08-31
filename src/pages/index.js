@@ -12,6 +12,7 @@ import blp from '../assets/images/blp.png'
 import userscience from '../assets/images/userscience.png'
 import metaps from '../assets/images/metadata-aps.png'
 import rdfa from '../assets/images/rdfa-twine.png'
+import low from '../assets/images/low.png'
 
 class Homepage extends React.Component {
     render() {
@@ -27,20 +28,19 @@ class Homepage extends React.Component {
                     <header className="major">
                     <h2>About me</h2>
                     </header>
-                    <p>I am a service-oriented librarian and web developer based in the Seattle area but willing to relocate for the right
-                    role. I have over a decade of experience applying my technical and analytical skills and proclivities towards organizing
+                    <p>I am a service-oriented librarian and web developer currently based in the Seattle area. I have over a decade of experience applying my technical and analytical skills and proclivities towards organizing
                     information in both the public and private sectors.</p>
                     <p>While serving in the US Navy, I discovered a passion for supporting the efforts of professionals belonging to communities
                     of practice. Some of the disciplines I've worked within include naval aviation and electronic warfare, architecture
-                    and design, consumer health research, and social media analytics. In my current role at
-                    <a href="https://www.exlibrisgroup.com/">Ex Libris</a> (a
-                    <a href="https://proquest.com"> ProQuest</a> company) I serve professionals of my own ilk, librarians and other electronic resource managers.</p>
+                    and design, consumer health research, and social media analytics. In my current role at 
+                    <a target="_blank" href="https://www.exlibrisgroup.com/"> Ex Libris</a> (a
+                    <a target="_blank" href="https://proquest.com"> ProQuest</a> company) I serve professionals of my own ilk, librarians and other electronic resource managers.</p>
                     <p>I seek opportunities presenting interesting challenges that will allow me to continue to grow and make an impact
                     on the lives of others. I am open to working for employers small to large, public or private.</p>
                 </div>
                 <div className="col-4">
                     <span className="image fit">
-                    <img src={pic01} alt="" />
+                    <img src={pic01} alt="headshot" />
                     </span>
                 </div>
                 <div className="col-12">
@@ -68,10 +68,10 @@ class Homepage extends React.Component {
                     <h3>Web Development</h3>
                     <ul>
                     <li>HTML, CSS, JavaScript</li>
-                    <li>Vue.js</li>
-                    <li>Node.js</li>
-                    <li>Project management methodologies such as Agile</li>
-                    <li>Solid understanding of core web technologies</li>
+                    <li>Vue.js, Gatsby</li>
+                    <li>Responsive Design</li>
+                    <li>Usability Testing</li>
+                    <li>Project Management</li>                    
                     </ul>
 
                     <h3>General Computing</h3>
@@ -80,6 +80,7 @@ class Homepage extends React.Component {
                     <li>Linux command-line</li>
                     <li>Virtualization</li>
                     <li>Linux / Windows</li>
+                    <li>Text Analysis and Processing</li>
                     <li>Version control systems (Git, GitHub, BitBucket)</li>
                     </ul>
                 </div>
@@ -116,17 +117,24 @@ class Homepage extends React.Component {
             <section id="four" className="main style9 special">
                 <div className="container">
                 <header className="major">
-                    <h2>Featured Project: Lighthouses of Washington</h2>
+                    <h2>Featured Project: Lighthouse Crawler</h2>
                 </header>
-                <p>Coming Soon!</p>
+                <div className="grid-wrapper">
+                <div className="col-12">
+                    <span className="image fit">
+                        <img src={low} alt="lighthouse crawler screenshot" />
+                    </span>
+                    <p>Vue.js + Vuetify | WikiData, OpenWeather, Google Maps  </p>
                 <ul className="actions uniform">
                     <li>
-                    <a href="#" className="button special">Demo</a>
+                    <a target="_blank" href="https://kellycolht.net/lighthouses-of-washington/" className="button special">Demo</a>
                     </li>
                     <li>
-                    <a href="#" className="button">Source</a>
+                    <a target="_blank" href="https://github.com/kelcol/lighthouses-of-washington/" className="button">Source</a>
                     </li>
                 </ul>
+                </div>
+                </div>
                 </div>
             </section>
 
@@ -140,44 +148,44 @@ class Homepage extends React.Component {
                 </div>
                 <div className="col-4">
                     <span className="image fit">
-                    <img src={karl} alt="" />
+                    <img src={karl} alt="karl sayagain screenshot" />
                     </span>
                     <h3>Karl Sayagain</h3>
                     <p>JavaScript, HTML, CSS, Vue.js, Firebase</p>
                     <ul className="actions">
                     <li>
-                        <a href="http://kellycolht.net/karl-sayagain_vuejs-version/" className="button special">Demo</a>
+                        <a target="_blank" href="http://kellycolht.net/karl-sayagain_vuejs-version/" className="button special">Demo</a>
                     </li>
                     <li>
-                        <a href="https://github.com/kelcol/karl-sayagain_vuejs-version/" className="button">Source</a>
+                        <a target="_blank" href="https://github.com/kelcol/karl-sayagain_vuejs-version/" className="button">Source</a>
                     </li>
                     </ul>
                 </div>
                 <div className="col-4">
                     <span className="image fit">
-                    <img src={thisin} alt="" />
+                    <img src={thisin} alt="thisin' that screenshot" />
                     </span>
                     <h3>Twitter Share URL Generator</h3>
                     <p>JavaScript, HTML, CSS, MVC design pattern</p>
                     <ul className="actions">
                     <li>
-                        <a href="http://kellycolht.net/thisin-that/" className="button special">Demo</a>
+                        <a target="_blank" href="http://kellycolht.net/thisin-that/" className="button special">Demo</a>
                     </li>
                     <li>
-                        <a href="https://github.com/kelcol/thisin-that" className="button">Source</a>
+                        <a target="_blank" href="https://github.com/kelcol/thisin-that" className="button">Source</a>
                     </li>
                     </ul>
                 </div>
 
                 <div className="col-4">
                     <span className="image fit">
-                    <img src={blp} alt="" />
+                    <img src={blp} alt="Body Listening Project website screenshot" />
                     </span>
                     <h3>Body Listening Project Website</h3>
                     <p>Co-developed/designed, site admin</p>
                     <ul className="actions">
                     <li>
-                        <a href="https://web.archive.org/web/20180328081813/http://bodylisteningproject.org/" className="button">Website</a>
+                        <a target="_blank" href="https://web.archive.org/web/20180328081813/http://bodylisteningproject.org/" className="button">Website</a>
                     </li>
                     </ul>
                 </div>
@@ -189,7 +197,7 @@ class Homepage extends React.Component {
                     <p>Thoughts on user science</p>
                     <ul className="actions">
                     <li>
-                        <a href="http://responserequest.com/colhk/" className="button">Website</a>
+                        <a target="_blank" href="http://responserequest.com/colhk/" className="button">Website</a>
                     </li>
                     </ul>
                 </div>
@@ -201,7 +209,7 @@ class Homepage extends React.Component {
                     <p>XSD, RDF-XML, SKOS, Dublin Core, etc.</p>
                     <ul className="actions">
                     <li>
-                        <a href="https://audiblediner.github.io/metadata-aps/" className="button">Website</a>
+                        <a target="_blank" href="https://audiblediner.github.io/metadata-aps/" className="button">Website</a>
                     </li>
                     </ul>
                 </div>
@@ -214,7 +222,7 @@ class Homepage extends React.Component {
                     <p>A short overview of RDFa built using Twine</p>
                     <ul className="actions">
                     <li>
-                        <a href="https://kellycolht.net/rdfa-twine/" className="button">Website</a>
+                        <a target="_blank" href="https://kellycolht.net/rdfa-twine/" className="button">Website</a>
                     </li>
                     </ul>
                 </div>
