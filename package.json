@@ -1,41 +1,36 @@
 {
-  "name": "gatsby-starter-photon",
-  "description": "Gatsby Starter - Photon",
+  "name": "kelly-website",
+  "description": "A personal homepage",
   "version": "1.0.0",
-  "author": "Hunter Chang",
+  "author": "Kelly Colht",
   "dependencies": {
-    "gatsby": "^1.9.243",
-    "gatsby-image": "^1.0.42",
-    "gatsby-link": "^1.6.40",
-    "gatsby-plugin-google-analytics": "^1.0.24",
-    "gatsby-plugin-react-helmet": "^1.0.8",
-    "gatsby-plugin-sass": "^1.0.25",
-    "gatsby-plugin-sharp": "^1.6.41",
-    "gatsby-plugin-sitemap": "^1.2.25",
-    "gatsby-remark-copy-linked-files": "^1.5.30",
-    "gatsby-remark-images": "^1.5.60",
-    "gatsby-source-filesystem": "^1.5.27",
-    "gatsby-transformer-remark": "^1.7.39",
-    "gatsby-transformer-sharp": "^1.6.22",
-    "lodash": "^4.17.5"
+    "gatsby": "^2.2.9",
+    "gatsby-plugin-manifest": "^2.0.24",
+    "gatsby-plugin-offline": "^2.0.25",
+    "gatsby-plugin-react-helmet": "^3.0.10",
+    "gatsby-plugin-sass": "^2.0.11",
+    "node-sass": "^4.11.0",
+    "react": "^16.8.5",
+    "react-dom": "^16.8.5",
+    "react-helmet": "^5.2.0"
   },
-  "homepage": "https://github.com/gatsbyjs/gatsby-starter-blog#readme",
   "keywords": [
     "gatsby"
   ],
   "license": "MIT",
-  "main": "n/a",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/gatsbyjs/gatsby-starter-blog.git"
-  },
   "scripts": {
-    "dev": "gatsby develop",
-    "develop": "gatsby develop",
     "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write '**/*.js'",
+    "test": "echo \"Error: no test specified\" && exit 1",
     "deploy": "gatsby build && gh-pages -d public -b master"
   },
   "devDependencies": {
-    "gh-pages": "^1.2.0"
+    "gh-pages": "^2.1.1",
+    "prettier": "^1.14.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kelcol/kelcol.github.io"
   }
 }

@@ -1,11 +1,9 @@
 import React from "react";
-import Link from "gatsby-link";
 import Helmet from "react-helmet";
 
+import Layout from '../components/layout';
+
 import pic01 from '../assets/images/headshot.png'
-import pic02 from '../assets/images/pic02.jpg'
-import pic03 from '../assets/images/pic03.jpg'
-import pic04 from '../assets/images/pic04.jpg'
 import karl from '../assets/images/karl.png'
 import thisin from '../assets/images/thisin-that.png'
 import blp from '../assets/images/blp.png'
@@ -16,27 +14,24 @@ import low from '../assets/images/low.png'
 
 class Homepage extends React.Component {
     render() {
-        const siteTitle = this.props.data.site.siteMetadata.title;
+        const siteTitle = "Kelly Colht - Homepage";
 
         return (
-        <div>
-            <Helmet title={siteTitle} />
-
-            <section id="one" className="main style1">
+            <Layout>
+                <Helmet title={siteTitle} />
+                <section id="one" className="main style1">
                 <div className="grid-wrapper">
                 <div className="col-8">
                     <header className="major">
                     <h2>About me</h2>
                     </header>
-                    <p>I am a service-oriented librarian and web developer currently based in the Seattle area. I have over a decade of experience applying my technical and analytical skills and proclivities towards organizing
+                    <p>I am a service-oriented developer and librarian currently based in the Raleigh-Durham area. I have over a decade of experience applying my technical and analytical skills and proclivities towards organizing
                     information in both the public and private sectors.</p>
                     <p>While serving in the US Navy, I discovered a passion for supporting the efforts of professionals belonging to communities
-                    of practice. Some of the disciplines I've worked within include naval aviation and electronic warfare, architecture
-                    and design, consumer health research, and social media analytics. In my current role at 
-                    <a target="_blank" href="https://www.exlibrisgroup.com/"> Ex Libris</a> (a
-                    <a target="_blank" href="https://proquest.com"> ProQuest</a> company) I serve professionals of my own ilk, librarians and other electronic resource managers.</p>
-                    <p>I seek opportunities presenting interesting challenges that will allow me to continue to grow and make an impact
-                    on the lives of others. I am open to working for employers small to large, public or private.</p>
+                    of practice. Some of the domains I've worked in include naval aviation and electronic warfare, architecture
+                    and design, consumer health research, and social media analytics. I'm currently at 
+                    <a target="_blank" rel="noopener noreferrer" href="https://infosys.com/"> Infosys</a> working with financial services clients.</p>
+                    <p>I seek opportunities presenting interesting challenges through which I can grow personally and professionally while contributing to broader efforts.</p>
                 </div>
                 <div className="col-4">
                     <span className="image fit">
@@ -45,7 +40,7 @@ class Homepage extends React.Component {
                 </div>
                 <div className="col-12">
                     <p>Some of the topics I enjoy thinking about (in no particular order) are: olfactory interfaces, cake, knowledge organization
-                    in sports, lighthouses, JavaScript, metadata models, aural landscapes, linked data, wine, and other stuff.</p>
+                    in sports, lighthouses, Java and Spring, metadata models, aural landscapes, linked data, wine, and other stuff.</p>
                 </div>
 
                 </div>
@@ -68,20 +63,21 @@ class Homepage extends React.Component {
                     <h3>Web Development</h3>
                     <ul>
                     <li>HTML, CSS, JavaScript</li>
-                    <li>Vue.js, Gatsby</li>
+                    <li>Vue.js, Angular, Gatsby</li>
                     <li>Responsive Design</li>
                     <li>Usability Testing</li>
+                    <li>Accessibility</li>
                     <li>Project Management</li>                    
                     </ul>
 
                     <h3>General Computing</h3>
                     <ul>
                     <li>LAMP administration</li>
-                    <li>Linux command-line</li>
-                    <li>Virtualization</li>
+                    <li>UNIX cli & shell scripting</li>
+                    <li>Cloud Computing (Azure)</li>
                     <li>Linux / Windows</li>
                     <li>Text Analysis and Processing</li>
-                    <li>Version control systems (Git, GitHub, BitBucket)</li>
+                    <li>Version control systems </li>
                     </ul>
                 </div>
                 <div className="col-3">
@@ -96,23 +92,24 @@ class Homepage extends React.Component {
                     <h3>Resource Management</h3>
                     <ul>
                     <li>Library information systems</li>
-                    <li>Databases and query languages</li>
                     <li>Wordpress, Omeka</li>
-                    <li>Familiarity with image, audio, video, and text file formats</li>
+                    <li>Various metadata standards</li>
+                    <li>Semantic Web & Linked Data</li>
                     </ul>
 
-                    <h3>Metadata Design, Development, and Use</h3>
+                    <h3>Other Languages & Technologies</h3>
                     <ul>
-                    <li>Bibliographic Metadata</li>
-                    <li>Administrative, technical, and descriptive metadata standards</li>
-                    <li>Semantic Web, Linked Data, RDF, OWL, Schema.org, SKOS</li>
+                    <li>Java</li>
+                    <li>Spring (Core, Boot, AOP, Security)</li>
+                    <li>SQL & NoSQL databases</li>
+                    <li>Python</li>
+                    <li>Agile & DevOps methodologies</li>                    
                     </ul>
                 </div>
 
 
                 </div>
             </section>
-
 
             <section id="four" className="main style9 special">
                 <div className="container">
@@ -127,10 +124,10 @@ class Homepage extends React.Component {
                     <p>Vue.js + Vuetify | WikiData, OpenWeather, Google Maps  </p>
                 <ul className="actions uniform">
                     <li>
-                    <a target="_blank" href="https://kellycolht.net/lighthouses-of-washington/" className="button special">Demo</a>
+                    <a target="_blank" rel="noopener noreferrer" href="https://kellycolht.net/lighthouses-of-washington/" className="button special">Demo</a>
                     </li>
                     <li>
-                    <a target="_blank" href="https://github.com/kelcol/lighthouses-of-washington/" className="button">Source</a>
+                    <a target="_blank" rel="noopener noreferrer" href="https://github.com/kelcol/lighthouses-of-washington/" className="button">Source</a>
                     </li>
                 </ul>
                 </div>
@@ -154,10 +151,10 @@ class Homepage extends React.Component {
                     <p>JavaScript, HTML, CSS, Vue.js, Firebase</p>
                     <ul className="actions">
                     <li>
-                        <a target="_blank" href="http://kellycolht.net/karl-sayagain_vuejs-version/" className="button special">Demo</a>
+                        <a target="_blank" rel="noopener noreferrer" href="http://kellycolht.net/karl-sayagain_vuejs-version/" className="button special">Demo</a>
                     </li>
                     <li>
-                        <a target="_blank" href="https://github.com/kelcol/karl-sayagain_vuejs-version/" className="button">Source</a>
+                        <a target="_blank" rel="noopener noreferrer" href="https://github.com/kelcol/karl-sayagain_vuejs-version/" className="button">Source</a>
                     </li>
                     </ul>
                 </div>
@@ -169,10 +166,10 @@ class Homepage extends React.Component {
                     <p>JavaScript, HTML, CSS, MVC design pattern</p>
                     <ul className="actions">
                     <li>
-                        <a target="_blank" href="http://kellycolht.net/thisin-that/" className="button special">Demo</a>
+                        <a target="_blank" rel="noopener noreferrer" href="http://kellycolht.net/thisin-that/" className="button special">Demo</a>
                     </li>
                     <li>
-                        <a target="_blank" href="https://github.com/kelcol/thisin-that" className="button">Source</a>
+                        <a target="_blank" rel="noopener noreferrer" href="https://github.com/kelcol/thisin-that" className="button">Source</a>
                     </li>
                     </ul>
                 </div>
@@ -185,7 +182,7 @@ class Homepage extends React.Component {
                     <p>Co-developed/designed, site admin</p>
                     <ul className="actions">
                     <li>
-                        <a target="_blank" href="https://web.archive.org/web/20180328081813/http://bodylisteningproject.org/" className="button">Website</a>
+                        <a target="_blank" rel="noopener noreferrer" href="https://web.archive.org/web/20180328081813/http://bodylisteningproject.org/" className="button">Website</a>
                     </li>
                     </ul>
                 </div>
@@ -197,7 +194,7 @@ class Homepage extends React.Component {
                     <p>Thoughts on user science</p>
                     <ul className="actions">
                     <li>
-                        <a target="_blank" href="http://responserequest.com/colhk/" className="button">Website</a>
+                        <a target="_blank" rel="noopener noreferrer" href="http://responserequest.com/colhk/" className="button">Website</a>
                     </li>
                     </ul>
                 </div>
@@ -209,7 +206,7 @@ class Homepage extends React.Component {
                     <p>XSD, RDF-XML, SKOS, Dublin Core, etc.</p>
                     <ul className="actions">
                     <li>
-                        <a target="_blank" href="https://audiblediner.github.io/metadata-aps/" className="button">Website</a>
+                        <a target="_blank" rel="noopener noreferrer" href="https://audiblediner.github.io/metadata-aps/" className="button">Website</a>
                     </li>
                     </ul>
                 </div>
@@ -222,7 +219,7 @@ class Homepage extends React.Component {
                     <p>A short overview of RDFa built using Twine</p>
                     <ul className="actions">
                     <li>
-                        <a target="_blank" href="https://kellycolht.net/rdfa-twine/" className="button">Website</a>
+                        <a target="_blank" rel="noopener noreferrer" href="https://kellycolht.net/rdfa-twine/" className="button">Website</a>
                     </li>
                     </ul>
                 </div>
@@ -231,24 +228,9 @@ class Homepage extends React.Component {
             </section>
 
 
-            </div>
-
+            </Layout>
         );
     }
 }
 
-Homepage.propTypes = {
-    route: React.PropTypes.object
-};
-
 export default Homepage;
-
-export const pageQuery = graphql`
-    query IndexQuery {
-        site {
-            siteMetadata {
-                title
-            }
-        }
-    }
-`;

@@ -1,9 +1,9 @@
 # gatsby-starter-photon
-Gatsby starter based on the Photon site template, designed by [HTML5 UP](https://html5up.net/photon). Check out https://codebushi.com/gatsby-starters/ for more Gatsby starters and templates.
+Gatsby.js V2 starter based on the Photon site template, designed by HTML5 UP. Check out https://codebushi.com/gatsby-starters/ for more Gatsby starters and templates.
 
 ## Preview
 
-http://gatsby-photon.surge.sh/
+https://gatsby-photon.surge.sh
 
 ## Installation
 

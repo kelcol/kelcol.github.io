@@ -10,7 +10,7 @@
 
 // Size.
 	$size: (
-		border-radius:		12px,
+		border-radius:		4px,
 		element-height:		2.75em,
 		element-margin:		2em
 	);
@@ -24,36 +24,36 @@
 	);
 
 // Palette.
-	$palette: (
-		bg:					rgb(238, 238, 238),
-		fg:					#666,
-		fg-bold:			#555,
-		fg-light: 			#999,
-		border:				rgba(144,144,144,0.5),
-		border-bg:			rgba(144,144,144,0.075),
-		border2:			rgba(144,144,144,0.75),
-		border2-bg:			rgba(144,144,144,0.2),
-		accent1:			#ffbf9c,
-		accent2:			#ffaf82,
-		accent3:			#ff9e69,
-		accent4:			#ff8e4f,
-		accent5:			#ff7e36,
-		accent6:			#ff6d1c,
-		accent1-alt:		desaturate(darken(#ffbf9c, 15), 20),
-		accent2-alt:		desaturate(darken(#ffaf82, 15), 20),
-		accent3-alt:		desaturate(darken(#ff9e69, 15), 20),
-		accent4-alt:		desaturate(darken(#ff8e4f, 15), 20),
-		accent5-alt:		desaturate(darken(#ff7e36, 15), 20),
-		accent6-alt:		desaturate(darken(#ff6d1c, 15), 20),
+$palette: (
+	bg:					rgb(238, 238, 238),
+	fg:					#666,
+	fg-bold:			#555,
+	fg-light: 			#999,
+	border:				rgba(144,144,144,0.5),
+	border-bg:			rgba(144,144,144,0.075),
+	border2:			rgba(144,144,144,0.75),
+	border2-bg:			rgba(144,144,144,0.2),
+	accent1:			#ffbf9c,
+	accent2:			#ffaf82,
+	accent3:			#ff9e69,
+	accent4:			#ff8e4f,
+	accent5:			#ff7e36,
+	accent6:			#ff6d1c,
+	accent1-alt:		desaturate(darken(#ffbf9c, 15), 20),
+	accent2-alt:		desaturate(darken(#ffaf82, 15), 20),
+	accent3-alt:		desaturate(darken(#ff9e69, 15), 20),
+	accent4-alt:		desaturate(darken(#ff8e4f, 15), 20),
+	accent5-alt:		desaturate(darken(#ff7e36, 15), 20),
+	accent6-alt:		desaturate(darken(#ff6d1c, 15), 20),
 
-		dark: (
-			bg:				#666666,
-			fg-bold:		#ffffff,
-			fg:				rgba(255,255,255,0.75),
-			fg-light:		rgba(255,255,255,0.5),
-			border:			#ffffff,
-			border-bg:		rgba(255,255,255,0.125),
-			border2:		rgba(255,255,255,0.75),
-			border2-bg:		rgba(255,255,255,0.25)
-		)
-	);
+	dark: (
+		bg:				#666666,
+		fg-bold:		#ffffff,
+		fg:				rgba(255,255,255,0.75),
+		fg-light:		rgba(255,255,255,0.5),
+		border:			#ffffff,
+		border-bg:		rgba(255,255,255,0.125),
+		border2:		rgba(255,255,255,0.75),
+		border2-bg:		rgba(255,255,255,0.25)
+	)
+);
