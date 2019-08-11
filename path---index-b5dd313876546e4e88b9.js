@@ -1,2 +1,0 @@
-webpackJsonp([0x81b8806e4260],{323:function(e,t){e.exports={data:{site:{siteMetadata:{title:"Kelly Colht | Librarian & Web Developer"}}},pathContext:{}}}});
-//# sourceMappingURL=path---index-b5dd313876546e4e88b9.js.map
